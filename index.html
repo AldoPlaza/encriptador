@@ -1,0 +1,89 @@
+<html lang="es">
+    <head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>AluraChallenge</title>
+
+   </head>
+
+<body>
+
+    <main class="main">
+
+
+            <header class="logo">
+
+            <a href="" class="logolink"><img src="img/Logo.png" alt="logo alura" class="imagenlogo"></a>
+
+            </header>
+        <div class="izquierda">
+
+
+            
+            <div class="divtexArea">
+
+                <textarea class="texArea"type=”text  id="texAreaid"  oninput="acentos();" style="text-transform:lowercase" name="" spellcheck="false" placeholder="Ingrese el texto" ></textarea>
+              
+                <p class="margin-top"><img src="img/exclamacion-circulo.png" alt=""> No se permiten letras mayusculas y acentos</p>
+                <div class="boton">
+
+                    <button onclick="encriptar();" class="botonencriptar">Encriptar</button>
+
+                    <button onclick="desencriptar();" class="botondesencriptar">Desencriptar</button>
+             
+                </div>
+                
+            </div>
+       
+        </div>
+
+<div class="Derecha">
+
+            <div id="divimagen" class="div1imagen">
+               
+                <div class="div2imagen">
+                    
+                    <img src="img/Muñeco.png" class="imagen" alt="muñeco">
+                    
+                    <div>
+
+                        <h3 class="teximg">Esperando Mensaje a encriptar o desencriptar</h3>
+                   
+                    </div>
+               
+                </div>
+
+            </div>
+
+            <div style="display:none;" id="resulid" class="resul">
+
+                <textarea class="texArea2"  name="" id="texAreaid2"></textarea>
+
+                <button class="botoncopiar" onclick="copiar(); alert('Texto copiado')">Copiar</button>
+
+            </div>
+
+            
+           
+        </div>
+
+    </main>
+
+    
+    <footer>
+ <div class  ="divgit">
+        <button class="botonfooter"onclick="window.location.href='https://www.freecodecamp.org/';" >
+    <img src="img/Limav-Flat-Gradient-Social-Github.512.png" width="40px" height: ="40px">
+</button>
+ </div>
+
+       <div class = "divtexpie">  <h5> Aldo Plaza García </h5> </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body></html>
